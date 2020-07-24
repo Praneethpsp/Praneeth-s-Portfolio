@@ -74,7 +74,7 @@ header p {
 
 .social-icons {
   margin-left: 900px;
-  margin-top: 15px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   position: absolute;
@@ -204,4 +204,36 @@ a:hover {
 .email {
   align-items: center;
   font-size: 25px;
+}
+
+.hero{
+  height:87px;
+  width: 220px;
+}
+
+.heroimg{
+ height:443px;
+  width:322px;
+}
+
+@media only screen and (min-width: 768px){
+
+.footer-social-icons {
+ 
+visibility: hidden;
+}
+
+i{
+  visibility: hidden;
+}
+
+.credits0{
+  visibility: hidden;
+}
+
+.credits{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
 }
