@@ -193,7 +193,7 @@
                 placeholder="  Message me.."
                 style="height: 170px;"
               ></textarea><br /><br />
-              <button class="submitbtn" type="submit" value="submit" onSubmit="window.location.reload()";/>
+              <button class="submitbtn" type="submit" value="submit" onclick="refreshPage()">
               Send
             </button>
             </form>
@@ -215,6 +215,7 @@
 <p class="credits">Designed and developed with  &#10084;&#65039; by Praneeth Pasam</p>
 
     <script>
+      
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzfsggqBYhyxEvVEE1Qu5mog5E0R5u9IJYjIZ9hbnH-PSPdlQ/exec'
       const form = document.forms['submit-to-google-sheet']
     
@@ -225,5 +226,10 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+    <script>
+      function refreshPage(){
+          window.location.reload();
+      } 
+      </script>
   </body>
 </html>
