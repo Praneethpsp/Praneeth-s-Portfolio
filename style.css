@@ -206,36 +206,39 @@ a:hover {
   font-size: 25px;
 }
 
-.hero{
-  height:87px;
+.hero {
+  height: 87px;
   width: 220px;
 }
 
-.heroimg{
- height:443px;
-  width:322px;
+.heroimg {
+  height: 443px;
+  width: 322px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
+  .footer-social-icons {
+    visibility: hidden;
+  }
 
-.footer-social-icons {
- 
-visibility: hidden;
-}
+  i {
+    visibility: hidden;
+  }
 
-i{
-  visibility: hidden;
-}
+  .credits0 {
+    visibility: hidden;
+  }
 
-.credits0{
-  visibility: hidden;
-}
+  .credits {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
 
-.credits{
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 40px;
-  text-decoration: none;
-}
-}
+  .animate__animated.animate__zoomInDown {
+    --animate-duration: 500ms;
+    --animate-delay: 0.9s;
+  }
 
+}
