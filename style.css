@@ -241,11 +241,11 @@ a:hover {
     --animate-delay: 0.9s;
   }
 
-  .hero-content{
+  .hero-content {
     margin-top: 30px;
   }
 
-  .resume{
+  .resume {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
@@ -269,14 +269,13 @@ a:hover {
     cursor: pointer;
   }
 
-.reslink{
-  text-decoration: none;
-  color: white;
-}
+  .reslink {
+    text-decoration: none;
+    color: white;
+  }
 
-.animate__animated.animate__zoomInDown {
-  --animate-duration: 1500ms;
-  margin-bottom: 30px;
-}
-
+  .animate__animated.animate__zoomInDown {
+    --animate-duration: 1500ms;
+    margin-bottom: 30px;
+  }
 }
