@@ -109,9 +109,9 @@ header .hero-image img:hover {
   margin: 9px 11px;
 }
 
-header .skills {
+.skills {
   width: 700px;
-  height: 400px;
+  height: 450px;
   margin-top: auto;
   margin-right: auto;
   float: right;
@@ -216,17 +216,23 @@ a:hover {
   width: 322px;
 }
 
+@media only screen and (min-width: 960px) {
+.nav-container2{
+  display: none;
+}
+}
+
 @media only screen and (min-width: 768px) {
   .footer-social-icons {
-    visibility: hidden;
+    display: none;
   }
 
   i {
-    visibility: hidden;
+    display: none;
   }
 
   .credits0 {
-    visibility: hidden;
+    display: none;
   }
 
   .credits {
