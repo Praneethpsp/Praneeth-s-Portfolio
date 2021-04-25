@@ -216,6 +216,11 @@ a:hover {
   width: 322px;
 }
 
+.study span{
+  font-size: 20px;
+  font-style: italic;
+}
+
 @media only screen and (min-width: 960px) {
 .nav-container2{
   display: none;

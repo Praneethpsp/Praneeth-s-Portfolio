@@ -71,7 +71,7 @@
   }
 
   .certifications{
-    padding-bottom:2rem;
+    padding-bottom:1rem;
   }
 
   .contactform {
@@ -124,7 +124,7 @@
     font-family: "Poppins", sans-serif;
     background: white;
     color: #000000;
-    margin-left: 37%;
+    margin-left: 33%;
     display: block;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -218,6 +218,9 @@
     text-align: center;
   }
 
+  .study span{
+  font-size: 12px;
+}
 
   .resbtn {
     background-color: #000000;
@@ -229,7 +232,7 @@
     font-size: 12px;
     font-weight: bold;
     height: 30px;
-    width: 90px;
+    width: 100px;
     font-family: "Poppins", sans-serif;
     margin-top: 20px;
   }
