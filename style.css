@@ -39,6 +39,7 @@ nav ul {
 .nav-items li:nth-last-of-type(1) {
   margin: 0;
 }
+
 .nav-items li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -216,15 +217,15 @@ a:hover {
   width: 322px;
 }
 
-.study span{
+.study span {
   font-size: 20px;
   font-style: italic;
 }
 
 @media only screen and (min-width: 960px) {
-.nav-container2{
-  display: none;
-}
+  .nav-container2 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
